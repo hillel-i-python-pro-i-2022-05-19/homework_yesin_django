@@ -13,7 +13,7 @@ RUN useradd --system ${USER} --uid=${UID} && \
 
 RUN apt update && apt upgrade -y
 
-COPY requirements.txt requirements.txt
+COPY ../requirements.txt requirements.txt
 
 RUN pip install --upgrade pip && \
     pip install --requirement requirements.txt
