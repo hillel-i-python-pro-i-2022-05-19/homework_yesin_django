@@ -1,0 +1,10 @@
+#Ignore all
+**
+
+#Exclude
+!../requirements.txt
+!phone
+!manage.py
+!core
+!phone/Makefile
+
